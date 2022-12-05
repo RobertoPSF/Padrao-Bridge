@@ -6,6 +6,7 @@ O Bridge é um padrão de projeto estrutural que permite que você divida uma cl
 ![image](https://user-images.githubusercontent.com/88672689/205537360-5290b09e-9189-43ec-9615-344d2dc66c2e.png)
 
 Aplicabilidade
+
  1.Utilize o padrão Bridge quando você quer dividir e organizar uma classe monolítica que tem diversas variantes da mesma funcionalidade (por exemplo, se a classe pode trabalhar com diversos servidores de base de dados).
 
   Quanto maior a classe se torna, mais difícil é de entender como ela funciona, e mais tempo se leva para fazer mudanças. As mudanças feitas para uma das variações de funcionalidade podem precisar de mudanças feitas em toda a classe, o que quase sempre resulta em erros ou falha em lidar com efeitos colaterais.
